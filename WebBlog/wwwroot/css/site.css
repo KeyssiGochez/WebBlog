@@ -1,0 +1,316 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+
+/* Provide sufficient contrast against white background */
+body {
+    margin: 0px;
+    font-family: 'Ralewey';
+}
+
+a {
+    color: #0366d6;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.container {
+    padding: 0px !important;
+    margin: 0px !important;
+    width:100vh;
+}
+/*Section 1*/
+#section-1 {
+    background-color: powderblue;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 70px;
+    color: #002060;
+}
+
+.btn-primary {
+    width: 45%;
+    color: #fff;
+    background-color: #9988ff;
+    border-color: #1861ac;
+    margin: 10px 0;
+    margin-top: 30px;
+    border-radius: 0em;
+    align-content: center;
+    font-size: 25px;
+    padding: 1px;
+    margin-left: 27%
+}
+
+.form-control {
+    border-radius: 0em;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+ul {
+    display: block;
+    font-size: 12px;
+}
+
+#registro {
+    align-content: center;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+}
+
+hr {
+    height: 0em;
+    margin-left: 37%;
+    margin-right: 37%;
+    background-color: #000;
+}
+
+.icon-chevron-thin-down:before {
+    content: "\e900";
+    color: #9988ff;
+    font-size: 5em;
+    align-content: center;
+}
+
+#icon-1 {
+    align-content: center;
+    text-align: center;
+    font-weight: 100;
+}
+
+#grad-1 {
+    background-image: radial-gradient(100% 195.14% at 1.32% 0%, #B0FFEC 0%, #ADFFB9 53.65%, #DEF9B8 100%);
+}
+
+form {
+    margin-left: 30%;
+    margin-right: 30%;
+    align-content: center;
+    padding: 15px;
+}
+
+#head {
+    padding-top: 100px;
+}
+
+/*Style slider*/
+#Img-Form {
+    box-shadow: black;
+}
+
+#ContTitle {
+    width: 50%;
+    font-size: 20px;
+    margin: 10px 0;
+    color: #000;
+    box-shadow: 1px 1px;
+}
+
+#ContDate {
+    width: 50%;
+    font-size: 20px;
+    color: #000;
+    margin: 10px 0;
+    box-shadow: 1px 1px;
+}
+
+#ContAuthor {
+    width: 50%;
+    font-size: 20px;
+    color: #000;
+    margin: 10px 0;
+    box-shadow: 1px 1px;
+}
+
+#ContText {
+    width: 50%;
+    color: #000;
+    font-size: 25px;
+    margin: 10px 0;
+    text-align:justify;
+    /* box-shadow: 1px 1px; */
+}
+/*Fin Slider*/
+#Title {
+    width: 100%;
+    font-size: 20px;
+    margin: 10px 0;
+    margin-top: 30px;
+    box-shadow: 1px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+#author {
+    width: 100%;
+    font-size: 20px;
+    margin: 10px 0;
+    margin-top: 30px;
+    box-shadow: 1px 1px;
+    align-content: center;
+    text-align: center;
+}
+
+#Text {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 100%;
+    height: 250px;
+    box-shadow: 1px 1px;
+    align-content: left;
+}
+
+#grad-2 {
+    background-image: radial-gradient(100% 195.14% at 1.32% 0%, #8B8B8B 0%, #696969 53.65%, #474747 100%);
+    align-content: center;
+    text-align: center;
+}
+
+.section-text {
+    height: 500px;
+    color: #ffffff;
+}
+
+#footer-1 {
+    padding: 50px;
+    background-color: #000000;
+    color: white;
+    margin: auto;
+    height: auto;
+}
+
+ul {
+    font-size: 25px;
+    margin-top: 20px;
+    align-content: center;
+    line-height: 0.2em;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+h5,h6{
+    font-weight:bold;
+    font-size:30px;
+}
+
+#read {
+    background-color: #CFFF99;
+    width: 200px;
+    margin: 10px 0;
+    margin: 10px 0;
+    margin-top: 30px;
+    border-radius: 0em;
+    align-content: center;
+    margin-left: 35%;
+    font-size:20px;
+    border: 0px;
+    box-shadow: 3px 3px rgba(133, 129, 129, 0.503);
+}
+
+.img-2 {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 90%;
+}
+
+.section-text {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.linea {
+    margin: 0px 20px;
+    width: 90px;
+    border-top: 1px solid #999;
+    position: relative;
+    top: 10px;
+    float: left;
+}
+
+.leyenda {
+    height: 5px;
+    float: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 18px;
+    color: #002060;
+}
+
+#section-2 {
+    padding-bottom: 40px;
+    margin: 10%;
+}
+
+.text-right {
+    float: right;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.content-sliders {
+    padding: 48px;
+}
+
+.timePublished {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 16px;
+    color: #fff;
+}
