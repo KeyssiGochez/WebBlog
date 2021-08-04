@@ -171,7 +171,6 @@ form {
 #ContText {
     width: 50%;
     color: #000;
-    font-size: 25px;
     margin: 10px 0;
     text-align:justify;
     /* box-shadow: 1px 1px; */
@@ -283,6 +282,7 @@ h5,h6{
 }
 
 .leyenda {
+    font-weight: black;
     height: 5px;
     float: left;
     margin-left: 15%;

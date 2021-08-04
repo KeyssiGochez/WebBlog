@@ -21,8 +21,6 @@ namespace WebBlog.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.registro = dbBlog.Posts;
-            return View();
         }
 
         public IActionResult Published(Post post)
