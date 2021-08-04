@@ -3,6 +3,12 @@
 
 // Write your JavaScript code.
 
+function sliderToPost(){
+    var x = document.getElementById('grad-1').clientHeight;
+    window.scroll(0, x)
+    console.log(x)
+}
+
 function PublishPost() {
     $('#PuPost').submit();
 
