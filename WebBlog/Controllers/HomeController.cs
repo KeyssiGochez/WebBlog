@@ -25,8 +25,12 @@ namespace WebBlog.Controllers
             return View();
         }
 
+
         public IActionResult Published(Post post)
         {
+            Random random = new Random();
+            post.Id = random.Next();
+            post.Id = random.Next(0, 1000);
             post.Date = DateTime.UtcNow;
             dbBlog.Add(post);//add to bd
             int result = dbBlog.SaveChanges();
@@ -34,6 +38,16 @@ namespace WebBlog.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [Route("/Home/readMore/{idPost}")]
+        public IActionResult ReadMore(int idPost)
+        {
+
+            ViewBag.Data = dbBlog.Posts.FirstOrDefault(x => x.Id == idPost);
+            return View("Post");
+            
+
+        }
+       
         public IActionResult Privacy()
         {
             return View();

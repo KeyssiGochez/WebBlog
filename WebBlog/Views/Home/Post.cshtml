@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Post";
+}
+
+<div id="img-logo">
+    <img src="img/LogoBlack.png" alt="">
+</div>
+<div class="containerPost">
+
+    <div class="titleHead">
+        <h1>@ViewBag.Data.Title</h1>
+    </div>
+    <div class="scrollB">
+        <p class="descriptionP">@ViewBag.Data.Text</p>
+    </div>
+
+    <div class="DateAuthor">
+        <h5>@ViewBag.Data.Date </h5>
+        <h5>@ViewBag.Data.Author</h5>
+    </div>
+    <div>
+        <a asp-action="Index" asp-controller="Home" class="btn-back">Back</a>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="css/site.css" />
+
+
